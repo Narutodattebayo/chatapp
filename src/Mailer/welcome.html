@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Rev</title>
+    <style>
+        body {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: 'Sans-serif', arial;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 38px;
+            padding: 50px 0 35px;
+            margin: 0;
+        }
+
+        .details {
+            border: 1px solid #7fd6f7;
+            color: #00aeef;
+            padding: 12px 75px 12px 20px;
+            border-radius: 4px;
+        }
+
+        .link {
+            font-size: 14px;
+            padding: 30px 0;
+        }
+
+        .social-links img {
+            width: 15px;
+            height: 15px;
+        }
+
+        @media only screen and (max-width: 680px) {
+
+            body,
+            table,
+            td,
+            p,
+            a {
+                -webkit-text-size-adjust: none !important;
+            }
+
+            img {
+                height: auto !important;
+                max-width: 100% !important;
+            }
+
+            table {
+                width: 100% !important;
+            }
+
+            td {
+                font-size: 13px !important;
+            }
+
+            td.header {
+                width: auto !important;
+            }
+
+            td.header-heading {
+                padding: 49px 0 10px 0 !important;
+            }
+
+            td.user {
+                font-size: 16px !important;
+                font-weight: 600 !important;
+            }
+
+            td.signup-msg {
+                padding: 0 0 0 0 !important;
+            }
+
+            table.signup-detail {
+                padding: 0 0 !important;
+            }
+
+            td.social a img {
+                width: 90px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table border="0" align="center" cellpadding="0" cellspacing="0"
+        style="max-width:680px; min-width:320px; -webkit-text-size-adjust: 100%; background:#191919; color:#fff;padding:40px">
+        <tr>
+            <td>
+                <h2 class="title">Welcome to Rev!</h2>
+
+                <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#fbfcff"
+                    style="padding: 35px 40px 15px;">
+
+                    <tr>
+                        <td valign="top" width="100%" class="header">
+                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td valign="top" style="text-align:center;">
+                                        <a href="#" style="text-decoration:none;color:#333333;display:inline-block;"
+                                            target="_blank">
+                                            <img src="{{ASSET_PATH}}/ic-logo.png" alt="logo"
+                                                style="width:100px; padding-bottom: 20px;" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="header-heading user" valign="top"
+                                        style="color:#444444;font-size:20px;font-weight:500;text-transform:capitalize; padding-bottom: 15px;">
+                                        Dear {{name}},
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="signup-msg" valign="top" style="
+                                    color: #444444;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    ">
+                                        <span style="">
+                                            We are excited to have you get started. Below are the credentials.
+                                        </span>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td align="center" valign="top" style="text-align:left; padding: 40px 0;">
+                                        <!-- <span class="details">Email: rev@yopmail.com</span> -->
+
+                                        <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"
+                                            style="background: #efefef;
+                                             border-radius: 3px;
+                                             padding: 10px; border: 1px solid #e4e2e2;">
+                                            <tr>
+
+                                                <td valign="" style="font-size: 12px;
+                                                    color: #52aaf5;
+                                                    padding: 12px 0;
+                                                    border-bottom: 1px solid #e8e8e8">
+                                                    <span>Email</span>
+                                                    <span style="color: #363636;
+                                                    margin: 0 0 0 54px;">{{email}}</span>
+                                                </td>
+
+                                            </tr>
+
+                                            <tr>
+
+                                                <td valign="" style="font-size: 12px;
+                                                        color: #52aaf5;
+                                                        padding: 12px 0;">
+                                                    <span>Password</span>
+                                                    <span style="color: #363636;
+                                                          margin: 0 0 0 34px;">{{password}}</span>
+                                                </td>
+
+                                            </tr>
+
+                                        </table>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="signup-msg" valign="top" style="
+                                    color: #444444;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    ">
+                                        To log into your acccount please click on the link below:
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="link" valign="top">
+                                        <a href="javascript:void(0)"> Click here to Login</a>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td class="signup-msg" valign="top" style="
+                                    color: #444444;
+                                    font-size: 14px;
+                                    font-weight: 400;
+                                    line-height: 25px;
+                                    ">
+                                        If you have any questions, just reply to this email- we're <br>
+                                        always happy to help out.
+                                    </td>
+                                </tr>
+
+                            </table>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" valign="top">
+                            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0"
+                                bgcolor="#fbfcff" style="" class="signup-detail">
+
+                                <tr>
+                                    <td style="padding:.75pt .75pt .75pt .75pt; color: #444444; ">
+                                        <p
+                                            style="margin-right:0in;margin-left:0in;line-height:25px; margin-bottom: 50px;">
+                                            <span style="    font-size: 12.0pt; 
+                                            font-weight: 600;">Cheers, <br> Team Rev </span></p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+
+
+            </td>
+        </tr>
+
+
+ 
+
+    <tr>
+        <td valign="top" style="padding: 9px 10px;
+                     background: #f6f6f6;">
+            <table width="100%" align="center" border="0" cellpadding="0" cellspacing="0" style="">
+                <tr>
+
+                    <td valign="" style="font-size:11px;color:#a0a9bd;">
+                        Copyright © 2020 Rev.
+                    </td>
+                    <td valign="" style="text-align:right;" class="social-links">
+                        <a href="javascript:void(0)" style="display:inline-block;padding-right:10px;">
+                            <img src="{{ASSET_PATH}}/facebook.png" alt="Facebook" />
+                        </a>
+                        <a href="javascript:void(0)" style="display:inline-block;padding-right:10px;">
+                            <img src="{{ASSET_PATH}}/instagram.png" alt="Instagram" />
+                        </a>
+                        <a href="javascript:void(0)" style="display:inline-block;padding-right:10px;">
+                            <img src="{{ASSET_PATH}}/twitter.png" alt="Twitter" />
+                        </a>
+                        <a href="javascript:void(0)" style="display:inline-block;padding-right:10px;">
+                            <img src="{{ASSET_PATH}}/linkedin.png" alt="Linkdin" />
+                        </a>
+                    </td>
+
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+
+    </table>
+
+</body>
+
+</html>

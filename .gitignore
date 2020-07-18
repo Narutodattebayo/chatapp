@@ -1,0 +1,23 @@
+# Build
+build/
+public/
+@dev/
+
+# Secrets
+bin/
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+
+# Environment
+.pm2
+.bash_history
+.config/
+.git-credentials
+.npm/
+.rediscli_history
+.viminfo
+.cache
