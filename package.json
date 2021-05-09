@@ -23,7 +23,7 @@
         "dotenv": "^8.0.0",
         "express": "^4.17.1",
         "fcm-node": "^1.5.2",
-        "handlebars": "^4.7.3",
+        "handlebars": "^4.7.7",
         "hbs": "^4.1.0",
         "helmet": "^3.20.0",
         "joi": "^14.3.1",
